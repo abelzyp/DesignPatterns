@@ -3,7 +3,7 @@ package CreationalPattern.SimpleFactory.ThirdEdition;
 import java.util.Scanner;
 
 /*
- * 第二个版本中的耦合还是紧，如果要增加别的运算，还需要修改Operator类，还需要改进
+ * 第二个版本中的耦合还是紧，如果要增加别的运算，还需要修改Operator类，还需要改进，最终改成简单工厂模式
  */
 public class Main {
 	public static void main(String[] args) {
