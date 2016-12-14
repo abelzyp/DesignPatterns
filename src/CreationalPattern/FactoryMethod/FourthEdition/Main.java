@@ -12,6 +12,7 @@ public class Main {
 			IFactory operFactory = new AddFactory();// 修改运算，只需要修改这里就可以了
 			Operation oper = operFactory.createOperation();
 
+			@SuppressWarnings("resource")
 			Scanner sc = new Scanner(System.in);
 			System.out.println("请输入第一个数字：");
 			String a = sc.nextLine();
